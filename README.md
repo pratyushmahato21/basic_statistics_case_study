@@ -4,19 +4,23 @@
 The Lending Club is a peer-to-peer lending site where members make loans to each other. The site makes anonymized data on loans and borrowers publicly available.
 
 # BUSINESS PROBLEM:
-Using lending club loans data, the team would like to test below hypothesis on how different factors effecing each other (Hint: You may leverage hypothesis testing using statistical tests)
-   a. Interest rate is varied for different loan amounts (Less intrest charged for high loan amounts)
-   b. Loan length is directly effecting intrest rate.
-   c. Inrest rate varies for different purpose of loans
-   d. There is relationship between FICO scores and Home Ownership. It means that, People with owning home will have high FICO scores.
+Using lending club loans data, the team would like to test the below hypothesis on how different factors affect each other (Hint: You may leverage hypothesis testing using statistical tests)
+   a. Interest rate is varied for different loan amounts (Less interest charged for high loan amounts)
+   b. Loan length is directly affecting interest rate.
+   c. Interest rate varies for different purpose of loans
+   d. There is a relationship between FICO scores and Home Ownership. It means that People with their own homes will have high FICO scores.
 
    
 # DATA AVAILABLE:
   LoansData.csv
 The data have the following variables (with data type and explanation of meaning)
+
  Amount.Requested - numeric. The amount (in dollars) requested in the loan application.
+
  Amount.Funded.By.Investors - numeric. The amount (in dollars) loaned to the individual.
+
  Interest.rate – character. The lending interest rate charged to the borrower.
+
  Loan.length - character. The length of time (in months) of the loan.
  Loan.Purpose – categorical variable. The purpose of the loan as stated by the applicant.
  Debt.to.Income.Ratio – character. The % of consumer’s gross income going toward paying debts.
