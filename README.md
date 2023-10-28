@@ -22,22 +22,32 @@ The data have the following variables (with data type and explanation of meaning
  Interest.rate – character. The lending interest rate charged to the borrower.
 
  Loan.length - character. The length of time (in months) of the loan.
- Loan.Purpose – categorical variable. The purpose of the loan as stated by the applicant.
- Debt.to.Income.Ratio – character. The % of consumer’s gross income going toward paying debts.
+
+ Loan.Purpose – categorical variable. The purpose of the loan is stated by the applicant.
+
+ Debt.to.Income.Ratio – character. The % of the consumer’s gross income goes toward paying debts.
+
  State - character. The abbreviation for the U.S. state of residence of the loan applicant.
+
  Home.ownership - character. Indicates whether the applicant owns, rents, or has a mortgage.
+
  Monthly.income - categorical. The monthly income of the applicant (in dollars).
- FICO.range – categorical (expressed as a string label e.g. “650-655”). A range indicating the applicants FICO score.
+
+ FICO.range – categorical (expressed as a string label e.g. “650-655”). A range indicating the applicant's FICO score.
+
  Open.CREDIT.Lines - numeric. The number of open lines of credit at the time of application.
+
  Revolving.CREDIT.Balance - numeric. The total amount outstanding all lines of credit.
+
  Inquiries.in.the.Last.6.Months - numeric. Number of credit inquiries in the previous 6 months.
+
  Employment.Length - character. Length of time employed at current job
 
 
 # Business Problem 2
 
 # BACKGROUND:
-When an order is placed by a customer of a small manufacturing company, a price quote must be developed for that order. Because each order is unique, quotes must be established on an order-by-order basis by a pricing expert. The price quote process is laborintensive, as prices depend on many factors such as the part number, customer, geographic location, market, and order volume. The sales department manager is concerned that the pricing process is too complex, and that there might be too much variability in the quoted prices. An improvement team is tasked with studying and improving the pricing process.
+When an order is placed by a customer of a small manufacturing company, a price quote must be developed for that order. Because each order is unique, quotes must be established on an order-by-order basis by a pricing expert. The price quote process is labor intensive, as prices depend on many factors such as the part number, customer, geographic location, market, and order volume. The sales department manager is concerned that the pricing process is too complex and that there might be too much variability in the quoted prices. An improvement team is tasked with studying and improving the pricing process.
 
 After interviewing experts to develop a better understanding of the current process, the team designed a study to determine if there is variability between pricing experts. That is, do different pricing experts provide different price quotes? Two randomly selected pricing experts, Mary and Barry, were asked to independently provide prices for twelve randomly selected orders. Each expert provided one price for each of the twelve orders
 
@@ -54,19 +64,24 @@ The data set contains the order number, 1 through 12, and the price quotes by Ma
 
 # BACKGROUND:
 
-The New Life Residential Treatment Facility is a NGO that treats teenagers who have shown signs of mental illness. It provides housing and supervision of teenagers who are making the transition from psychiatric hospitals back into the community. Because many of the teenagers were severely abused as children and have been involved with the juvenile justice system, behavioral problems are common at New Life. Employee pay is low and staff turnover (attrition) is high.
+The New Life Residential Treatment Facility is an NGO that treats teenagers who have shown signs of mental illness. It provides housing and supervision of teenagers who are making the transition from psychiatric hospitals back into the community. Because many of the teenagers were severely abused as children and have been involved with the juvenile justice system, behavioral problems are common at New Life. Employee pay is low and staff turnover (attrition) is high.
 
-A reengineering program was instituted at New Life with the goals of lowering behavioral problems of the kids and decreasing employee turnover rates. As a part of this effort, the following changes were made:
+A reengineering program was instituted at New Life with the goals of lowering the behavioral problems of the kids and decreasing employee turnover rates. As a part of this effort, the following changes were made:
+
  Employee shifts were shortened from 10 hours to 8 hours each day.
+
  Employees were motivated to become more involved in patient treatments. This included encouraging staff to run various therapeutic treatment sessions and allowing staff to have more say in program changes.
+
  The activities budget was increased.
+
  A facility-wide performance evaluation system was put into place that rewarded staff participation and innovation.
- Management and staff instituted a program designed to raise expectations about appropriate behavior from the kids. This included strict compliance with reporting of behavioral violations, insistence on participation in therapeutic sessions, and a lowered tolerance for even moderate behavioralinfractions.
+
+ Management and staff instituted a program designed to raise expectations about appropriate behavior from the kids. This included strict compliance with reporting of behavioral violations, insistence on participation in therapeutic sessions, and a lowered tolerance for even moderate behavioral infractions.
 
 To determine the effectiveness of the reengineering effort, a data set comprised of pre- and post-reengineering periods was compiled. The information contains two measures of behavioral problems. A critical incident occurs when a resident goes AWOL (leaves the premises without permission), destroys property (e.g., punching a hole in a wall or throwing furniture through windows), is caught in possession of street drugs, or engages in assault against other residents or staff members. A teenager is temporarily removed from the facility when s/he is sent to jail or back to a psychiatric hospital
 
 # BUSINESS PROBLEM:
-Determine what effect, if any, the reengineering effort had on the incidence behavioral problems and staff turnover. i.e To determine if the reengineering effort changed the critical incidence rate. Is there evidence that the critical incidence rate improved?
+Determine what effect, if any, the reengineering effort had on the incidence of behavioral problems and staff turnover. i.e. To determine if the reengineering effort changed the critical incidence rate. Is there evidence that the critical incidence rate improved?
 
 # DATA AVAILABLE:
    Price_Quotes.csv
@@ -74,8 +89,11 @@ Determine what effect, if any, the reengineering effort had on the incidence beh
 The data set contains 20 months of data; the first 13 months were prior to reengineering. The variables in the data include:
 
  Reengineer: Whether the month was before (Prior) or after (Post) reengineering
+
  EmployeeTurnover: The percentage of employees who quit in a given month, out of the total number of employees
+
  TRFF(%): The percentage of residents who were temporarily removed from the facility, out of the total number of residents
+
  CI (%): The percentage of critical incident reports written that month, out of the total number of residents
 
 # Business Problem 4
